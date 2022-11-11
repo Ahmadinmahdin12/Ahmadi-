@@ -1,0 +1,25 @@
+.box1{
+    background-color: lightcoral;
+    width: 200px;
+    margin-right: 5%;
+    height: 800px;
+}
+.box2{
+    background-color: lawngreen;
+    width: 200px;
+    margin-right: 5%;
+    height: 800px;
+}
+.box3{
+    background-color: blueviolet;
+    width: 200px;
+    margin-right: 5%;
+    height: 800px;
+}
+.body{
+    display: flex;
+    justify-content: center;
+}
+div{
+    display: inline-block;
+}
