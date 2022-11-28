@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kampus Atau Perguruan Tinggi</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "popins", sans-serif;
+        }
+
+        section {
+            background-color: brown;
+            background: cover;
+
+        }
+
+        header {
+            top: 0;
+            padding: 15px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 4px solid gainsboro;
+        }
+
+        .nav {
+            color: #000;
+            background: #fff;
+            text-decoration: none;
+            font-weight: 500;
+            letter-spacing: 1px;
+            padding: 2px 10px;
+            border-radius: 10px;
+        }
+
+        header img {
+            width: 200px
+        }
+
+        main {
+            display: flex;
+            border-bottom: 4px solid gainsboro;
+
+        }
+
+        .kolom2 {
+            display: flex;
+            padding: 20px 0px 20px 0px;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 20px;
+        }
+
+        .kolom1 {
+            display: flex;
+            padding-bottom: 20px;
+            border-bottom: 2px solid black;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 20px;
+        }
+
+        .kolom1 h2 {
+            color: blueviolet;
+            text-transform: uppercase;
+        }
+
+        article {
+            width: 100%;
+            padding: 15px 50px;
+            justify-content: space-between;
+
+        }
+
+        #foot {
+            text-align: center;
+            font-weight: 800;
+            background-color: black;
+            color: white;
+            padding: 20px 0px 20px 0px;
+        }
+
+        .aside img {
+            width: 300px;
+            border: 2px solid gray;
+        }
+
+        iframe {
+            margin: auto;
+        }
+
+        .kolom3 {
+            padding: 20px 0px 20px 0px;
+            border-bottom: 2px solid black;
+            font-size: 20px;
+        }
+
+        table {
+            margin: auto;
+        }
+
+        #table {
+            text-align: center;
+        }
+
+        .kolom4 {
+            margin-right: auto;
+            font-weight: bolder
+        }
+
+        .kolom4 input {
+            font-weight: bolder;
+            height: 20px;
+        }
+
+        .kolom4 submit {
+            background-color: silver;
+            height: 20px;
+        }
+
+        .promo {
+            text-align: center;
+            padding: 20px 0px 20px 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <header>
+            <div class="head">
+                <img src="images/kampus.jpg" alt="">
+                <p>KAMPUS PERGURUAN TINGGI</p>
+            </div>
+            <div class="nav">
+                <a href="home.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="info.html">Info</a>
+            </div>
+        </header>
+        <main>
+            <article>
+                <div class="kolom1">
+                    <div>
+                        <h2>Kampus <br>Perguruan tinggi </h2>
+                        <p>Perguruan tinggi ataupun kampus merupakan tujuan akhir bagi para lulusan SMA/SMK
+                            untuk melanjutkan pendidikannya. Mendekati pengumuman kelulusan SMA/SMK kerapkali
+                            membuat kamu bingung untuk menentukan pilihan kampus yang tepat.
+                            <br>
+                            <b>Kampus perguruan tinggi</b> juga hadir sebagai <a href="#">Kampus terkenal</a>
+                            yang akan memudahkan kamu untuk masuk ke kampus ini dengan cara <a href="#">Delivered</a>
+                        </p>
+                        <p>
+                            Selain berdasarkan sistem pendidikannya,kamu juga dapat menemukan kampus berdasarkan
+                            dengan sistem pengelolaannya. Jenis perguruan tinggi ini juga dapat membantu kamu
+                            untuk menentukan pilihan kampus mana yang akan dijadikan tempat kamu untuk menempuh
+                            pendidikan
+                        </p>
+                    </div>
+                    <div class="aside">
+                        <img src="images/foto1.jpg" alt="">
+                        <img src="images/foto2.jpg" alt="Kampus">
+                        <img src="images/foto3.jpg" alt="">
+                        <img src="images/foto4.jpg" alt="">
+                    </div>
+                </div>
+                <div class="kolom2">
+                    <div>
+                        <h3>Daftar Isi Jenis Perguruan Tinggi Berdasarkan Sistem Pengelolaan</h3>
+                        <ol>
+                            <li>Perguruan Tinggi Swasta (PTS)</li>
+                            <li>Perguruan Tinggi Negri (PTN)</li>
+                            <li>perguruan Tinggi Kedinasan (PTK)</li>
+                        </ol>
+                    </div>
+                    <div class="aside">
+                        <div>
+                            <iframe width="658" height="370" src="https://www.youtube.com/embed/8BnYhiCaGmQ"
+                                title="INI DIA 10 KAMPUS TERBAIK DI INDONESIA TAHUN 2021!! CALON MAHASISWA WAJIB TAU"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="kolom3">
+                    <h4 id="table">Kuliah Perguruan Tinggi</h4>
+                    <table border="1">
+                        <tr>
+                            <th>No.</th>
+                            <th>Kode mata kuliah</th>
+                            <th>Mata Kuliah</th>
+                            <th>Jumlah SKS</th>
+                            <th>Kategori</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>TKU212111</td>
+                            <td>Statistika</td>
+                            <td>2</td>
+                            <td>Basis Science</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>TKU212101</td>
+                            <td>Metode Numeris</td>
+                            <td>3</td>
+                            <td>Engineering Topic</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>TKU212141</td>
+                            <td>Isyarat Dan Sistem</td>
+                            <td>3</td>
+                            <td>Engineering Topik</td>
+                        </tr>
+                        <tr>
+                            <td>4></td>
+                            <td>TIF212142</td>
+                            <td>Komunikasi Data dan Komputer</td>
+                            <td>3</td>
+                            <td>Engineering Topik</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="promo">
+                    </h3>
+                    <br>
+                    <h4>Kunjungi juga akun e-Commerce dan sosial media kami untuk melihat perkembangan Kampus
+                        <br>
+                        <a href="https://instagram.com/mahdin_815?igshid=N2ZiY2E3YmU==">Instagram</a>
+                        <a href="https://www.facebook.com/profile.php?id=100082210061953&mibextid=ZbWKwL">Facebook</a>
+                        <br>
+                    </h4>
+                </div>
+                <div class="kolom4">
+
+                    <input type="text" placeholder="Enter Email" />
+                    <button type="submit">Subcribe</button>
+                </div>
+            </article>
+        </main>
+        <footer>
+            <p id="foot">Davelop by AHMADIN &#169 2022</p>
+        </footer>
+    </section>
+</body>
+
+</html>
